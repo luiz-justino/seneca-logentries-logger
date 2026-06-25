@@ -3,7 +3,7 @@
 
 # @seneca/logentries-logger
 
-[![npm version](https://img.shields.io/npm/v/@seneca/logentries-logger.svg)](https://npmjs.com/package/@seneca/logentries-logger)
+[![npm version](https://img.shields.io/npm/v/seneca-logentries-logger.svg)](https://npmjs.com/package/seneca-logentries-logger)
 [![build](https://github.com/senecajs/seneca-logentries-logger/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-logentries-logger/actions/workflows/build.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-logentries-logger/badge.svg)](https://snyk.io/test/github/senecajs/seneca-logentries-logger)
 [![Coveralls][BadgeCoveralls]][Coveralls]
@@ -40,8 +40,10 @@ A Logentries logger for Seneca microservices. Sends structured log entries to th
 
 If you're using this module and need help, you can:
 
-- Post a [github issue][]
-- Tweet to [@senecajs][]
+- Post a [github issue](https://github.com/senecajs/seneca-logentries-logger/issues)
+- Tweet to [@senecajs](http://twitter.com/senecajs)
+- Ask on the [Gitter](https://gitter.im/senecajs/seneca)
+
 
 ## API
 
