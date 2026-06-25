@@ -3,11 +3,18 @@
 
 # @seneca/logentries-logger
 
-
-
 [![npm version](https://img.shields.io/npm/v/@seneca/logentries-logger.svg)](https://npmjs.com/package/@seneca/logentries-logger)
 [![build](https://github.com/senecajs/seneca-logentries-logger/actions/workflows/build.yml/badge.svg)](https://github.com/senecajs/seneca-logentries-logger/actions/workflows/build.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/senecajs/seneca-logentries-logger/badge.svg)](https://snyk.io/test/github/senecajs/seneca-logentries-logger)
+[![npm version][npm-badge]][npm-url]
+[![Build Status][travis-badge]][travis-url]
+[![Dependency Status][david-badge]][david-url]
+[![Coveralls][BadgeCoveralls]][Coveralls]
+[![Gitter][gitter-badge]][gitter-url]
+
+
+
+
 
 | ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
 |---|---|
