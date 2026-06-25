@@ -12,10 +12,6 @@
 [![Coveralls][BadgeCoveralls]][Coveralls]
 [![Gitter][gitter-badge]][gitter-url]
 
-
-
-
-
 | ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
 |---|---|
 
@@ -84,10 +80,6 @@ Compatible with [Logentries](https://logentries.com/) log management.
 
 [npm-url]: https://npmjs.com/package/seneca-logentries-logger
 [npm-badge]: https://img.shields.io/npm/v/seneca-logentries-logger.svg
-[travis-badge]: https://travis-ci.org/senecajs/seneca-logentries-logger.svg
-[travis-url]: https://travis-ci.org/senecajs/seneca-logentries-logger
-[david-badge]: https://david-dm.org/senecajs/seneca-logentries-logger.svg
-[david-url]: https://david-dm.org/senecajs/seneca-logentries-logger
 [Coveralls]: https://coveralls.io/github/senecajs/seneca-logentries-logger?branch=master
 [BadgeCoveralls]: https://coveralls.io/repos/github/senecajs/seneca-logentries-logger/badge.svg?branch=master
 [gitter-url]: https://gitter.im/senecajs/seneca-logentries-logger
