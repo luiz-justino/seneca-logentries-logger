@@ -75,11 +75,6 @@ npm run test
 
 Compatible with [Logentries](https://logentries.com/) log management.
 
-[![npm version][npm-badge]][npm-url]
-[![Build Status][travis-badge]][travis-url]
-[![Dependency Status][david-badge]][david-url]
-[![Coveralls][BadgeCoveralls]][Coveralls]
-[![Gitter][gitter-badge]][gitter-url]
 [npm-url]: https://npmjs.com/package/seneca-logentries-logger
 [npm-badge]: https://img.shields.io/npm/v/seneca-logentries-logger.svg
 [travis-badge]: https://travis-ci.org/senecajs/seneca-logentries-logger.svg
