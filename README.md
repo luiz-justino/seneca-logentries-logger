@@ -1,39 +1,46 @@
 ![Seneca](http://senecajs.org/files/assets/seneca-logo.png)
-> A [Seneca.js](https://www.npmjs.com/package/seneca) logger for Logentries
+> A [Seneca.js][] plugin
 
-# seneca-logentries-logger
+# @seneca/logentries-logger
 
-[![npm version][npm-badge]][npm-url]
-[![Build Status][travis-badge]][travis-url]
-[![Dependency Status][david-badge]][david-url]
-[![Coveralls][BadgeCoveralls]][Coveralls]
-[![Gitter][gitter-badge]][gitter-url]
+| ![Voxgig](https://www.voxgig.com/res/img/vgt01r.png) | This open source module is sponsored and supported by [Voxgig](https://www.voxgig.com). |
+|---|---|
 
+## Install
 
-- __Lead Maintainer__: [David Gonzalez](https://github.com/dgonzalez)
-- __Sponsor__: [nearForm](http://www.nearform.com)
-- __node__: 4.x, 6.x
-
-This module is a plugin that enables your Seneca-based microservice to send logs
-to Logentries.
-
-### Seneca compatibility
-
-Supports Seneca versions **2.x** - **3.x**
-
-## Getting Started
-
-Here is an example on how to use the logger:
-```
-var Seneca = require('seneca')
-var seneca = Seneca({legacy: {logging: false}, 'logentries-logger': {token: <your-token>}})
-seneca.use(require('seneca-logentries-logger'))
+```sh
+npm install seneca-logentries-logger
 ```
 
-And that's all! From now on, all the Seneca log output will be sent to the Logentries
-log configured to the specified token.
+## Quick Example
 
-## Configuration
+```js
+require('seneca')({
+  legacy: { logging: false }
+})
+.use(require('seneca-logentries-logger'), {
+  token: 'YOUR_LOGENTRIES_TOKEN'
+})
+```
+
+## More Examples
+
+See [test/](test/) for usage examples.
+
+## Motivation
+
+A Logentries logger for Seneca microservices. Sends structured log entries to the Logentries log management service.
+
+## Support
+
+If you're using this module and need help, you can:
+
+- Post a [github issue][]
+- Tweet to [@senecajs][]
+
+## API
+
+### Configuration
 
 In order to configure the logger there is a number of configuration parameters that
 can be passed into Seneca in the key 'logentries-logger'. The parameters will
@@ -48,20 +55,25 @@ The configuration is based on the [le_node client](https://github.com/rapid7/le_
 
 The only required attribute is `token` as shown in the above example.
 
-## Compatibility
-
-Seneca-logentries-logger is only compatible with Seneca 3.0+ and Node 4.x+
-
 ## Contributing
 
-The [Senecajs org](https://www.npmjs.com/package/seneca) encourage open participation. If you feel you can help in any way, be it with
-documentation, examples, extra testing, or new features please get in touch.
+The [Senecajs org][] encourages open participation. If you feel you can help in any way, be it with documentation, examples, extra testing, or new features please get in touch.
 
-## License
+### Running tests
 
-Copyright (c) 2016, David Gonzalez and other contributors.
-Licensed under [MIT](LICENSE).
+```sh
+npm run test
+```
 
+## Background
+
+Compatible with [Logentries](https://logentries.com/) log management.
+
+[![npm version][npm-badge]][npm-url]
+[![Build Status][travis-badge]][travis-url]
+[![Dependency Status][david-badge]][david-url]
+[![Coveralls][BadgeCoveralls]][Coveralls]
+[![Gitter][gitter-badge]][gitter-url]
 [npm-url]: https://npmjs.com/package/seneca-logentries-logger
 [npm-badge]: https://img.shields.io/npm/v/seneca-logentries-logger.svg
 [travis-badge]: https://travis-ci.org/senecajs/seneca-logentries-logger.svg
