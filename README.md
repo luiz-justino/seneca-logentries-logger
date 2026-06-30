@@ -15,7 +15,7 @@
 
 ```sh
 npm install seneca-logentries-logger
-```
+```js
 
 ## Quick Example
 
@@ -26,7 +26,7 @@ require('seneca')({
 .use(require('seneca-logentries-logger'), {
   token: 'YOUR_LOGENTRIES_TOKEN'
 })
-```
+```js
 
 ## More Examples
 
@@ -69,7 +69,7 @@ The [Senecajs org][] encourages open participation. If you feel you can help in 
 
 ```sh
 npm run test
-```
+```js
 
 ## Background
 
