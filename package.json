@@ -1,5 +1,5 @@
 {
-  "name": "seneca-logentries-logger",
+  "name": "@seneca/logentries-logger",
   "version": "1.0.0",
   "description": "Logentries logger plugin for Seneca",
   "main": "logentries.js",
@@ -9,6 +9,11 @@
     "coveralls": "lab -s -P test -r lcov | coveralls",
     "coverage": "lab -v -P test -L -t 90 -r html > docs/coverage.html",
     "annotate": "docco logentries.js -o docs/annotated"
+  },
+  "homepage": "https://github.com/senecajs/seneca-logentries-logger#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senecajs/seneca-logentries-logger.git"
   },
   "author": "David Gonzalez",
   "license": "MIT",
