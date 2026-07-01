@@ -13,21 +13,19 @@
 
 ## Install
 
-```sh
+```
 npm install seneca-logentries-logger
-```js
-
+```
 ## Quick Example
 
-```js
+```
 require('seneca')({
   legacy: { logging: false }
 })
 .use(require('seneca-logentries-logger'), {
   token: 'YOUR_LOGENTRIES_TOKEN'
 })
-```js
-
+```
 ## More Examples
 
 See [test/](test/) for usage examples.
@@ -67,10 +65,9 @@ The [Senecajs org][] encourages open participation. If you feel you can help in 
 
 ### Running tests
 
-```sh
+```
 npm run test
-```js
-
+```
 ## Background
 
 Compatible with [Logentries](https://logentries.com/) log management.
